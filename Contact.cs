@@ -8,6 +8,15 @@ namespace AddressBookManagement
 {
     internal class Contact
     {
+        internal string first_Name;
+        internal string last_Name;
+        internal string present_Address;
+        internal string city;
+        internal string email_Id;
+        internal string state;
+        internal string zip;
+        internal string phone_Number;
+
         public string First_Name { get; set; }
         public string Last_Name { get; set; }
         public string Present_Address { get; set; }
