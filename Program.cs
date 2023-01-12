@@ -15,8 +15,9 @@ namespace AddressBookManagement
             Console.WriteLine("welcome to address book");
             Address address = new Address();
             address.Entry();
-            address.Edit();
-
+            //address.Edit();
+            //address.RemoveDetails();
+            address.Display();
 
 
 
