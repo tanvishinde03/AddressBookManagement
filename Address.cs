@@ -101,14 +101,24 @@ namespace AddressBookManagement
                 }
                 else
                 {
-                    Console.WriteLine("Contact not found{0}", name);
+                    //            Console.WriteLine("Contact not found{0}", name);
                 }
             }
 
+            public void RemoveDetails()
+            {
+                Console.WriteLine("Enter the first Name");
+                string FirstName = Console.ReadLine();
+                Console.WriteLine("Enter the last Name");
+                string LastName = Console.ReadLine();
+                Contact contact = new Contact();
+                contact.Remove(contact);
+                Console.WriteLine("Contacts are successfully Deleted");
+                Console.ReadLine();
 
 
 
-
+            }
         }
     }
 }
